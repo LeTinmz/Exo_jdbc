@@ -62,7 +62,7 @@ public class OperationDAO {
             }
 
         } catch (SQLException e) {
-            System.out.println("Error while fetching operations by account ID: " + e.getMessage());
+            System.out.println("yapa " + e.getMessage());
         } finally {
             try {
                 if (connection != null) connection.close();

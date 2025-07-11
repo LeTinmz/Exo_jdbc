@@ -111,7 +111,7 @@ public class CustomerDAO {
             return null;
 
         }catch (SQLException e){
-            System.out.println("Error during updating person : "+e.getMessage());
+            System.out.println("Error during updating customer : "+e.getMessage());
             return null;
         }finally {
             try{
@@ -142,7 +142,7 @@ public class CustomerDAO {
             return customers;
 
         }catch (SQLException e){
-            System.out.println("Error during updating person : "+e.getMessage());
+            System.out.println("Error during updating customer : "+e.getMessage());
             return new ArrayList<>();
         }finally {
             try{

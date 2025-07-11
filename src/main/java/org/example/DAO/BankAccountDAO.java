@@ -94,7 +94,7 @@ public class BankAccountDAO {
             return null;
 
         }catch (SQLException e){
-            System.out.println("Error during updating person : "+e.getMessage());
+            System.out.println("Error during updating bank account : "+e.getMessage());
             return null;
         }finally {
             try{
