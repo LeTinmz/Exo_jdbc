@@ -68,7 +68,10 @@ public class BankAccountDAO {
         }
     }
 
-
+    public List<BankAccount> getAllUserAccounts(int customerId){
+        List<BankAccount> bankAccounts = new ArrayList<>();
+        return bankAccounts;
+    }
     public BankAccount get (int id){
         try {
             connection = DataBaseManager.getConnection();
